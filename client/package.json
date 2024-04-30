@@ -1,0 +1,22 @@
+{
+  "name": "kvs-consumer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.1",
+    "@grpc/proto-loader": "^0.7.10",
+    "dotenv": "^16.4.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-record-lpcm16": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  }
+}

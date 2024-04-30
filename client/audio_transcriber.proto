@@ -1,0 +1,26 @@
+// audio_transcriber.proto
+syntax = "proto3";
+
+service AudioTranscriberService {
+  rpc TranscribeAudio (stream AudioRequest) returns (stream TranscriptionResponse) {}
+}
+
+service HealthCheckService {
+  rpc Check (HealthCheckRequest) returns (HealthCheckResponse) {}
+}
+
+message AudioRequest {
+  bytes audio_data = 1;
+}
+
+message TranscriptionResponse {
+  string transcription = 1;
+  double start_time = 2;
+  double end_time = 3;
+}
+
+message HealthCheckRequest {}
+
+message HealthCheckResponse {
+  int32 status_code = 1;
+}

@@ -1,0 +1,6 @@
+- Add ASG Delete Custom Resource
+- Add Variables for:
+  - Model
+  - VAD
+  - Min chunk time
+  - Max chunk time
