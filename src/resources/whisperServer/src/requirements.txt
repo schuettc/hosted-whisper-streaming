@@ -23,5 +23,5 @@ sympy==1.12
 tokenizers==0.15.2
 tqdm==4.66.3
 typing_extensions==4.11.0
-urllib3==2.2.1
+urllib3==2.2.2
 webrtcvad==2.0.10
