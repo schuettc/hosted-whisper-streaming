@@ -34,9 +34,9 @@
     "eslint": "^8",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
-    "projen": "^0.84.4",
+    "projen": "^0.84.13",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.118.0",
