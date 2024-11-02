@@ -164,13 +164,15 @@ Once the `.env` has been configured, you can deploy the CDK from the cloned repo
 yarn deploy
 ```
 
-After deploying the CDK, you can test the functionality by running the included client. This client will capture audio from your microphone and stream it to the server using gRPC. Output from the CDK will be used to configure the client in the `/client/.env` file. To run the client:
+After deploying the CDK, you can test the functionality by running the included client. This client will capture audio from your microphone using [SoX](https://sourceforge.net/projects/sox/) and stream it to the server using gRPC. Output from the CDK will be used to configure the client in the `/client/.env` file. To run the client:
 
 ```bash
 cd client
 yarn build
 yarn start
 ```
+
+Be sure to install [SoX](https://sourceforge.net/projects/sox/)
 
 ![ClientStreaming](/images/CLIExample.gif)
 
